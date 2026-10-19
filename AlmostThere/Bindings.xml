@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="ALMOSTTHERE_TOGGLE" category="OTHER">
+        AlmostThere_ToggleWindow()
+    </Binding>
+</Bindings>

@@ -1,0 +1,27 @@
+## Interface: 120105
+## Title: AlmostThere
+## Notes: Recommends the easiest incomplete achievements using pre-built effort ratings, adjusted for your progress.
+## Author: Sinirlan
+## Version: 0.1
+## X-License: MIT
+## X-Curse-Project-ID: 1753136
+## IconTexture: Interface\AddOns\AlmostThere\Media\almost_there.tga
+## SavedVariables: AlmostThereDB
+## Category: Collections
+## Category-deDE: Kriegsmeutesammlungen
+## Category-esES: Colecciones de banda guerrera
+## Category-esMX: Colecciones de tropa
+## Category-frFR: Collections du bataillon
+## Category-itIT: Collezioni della Brigata
+## Category-koKR: 수집
+## Category-ptBR: Coleções do Bando de Guerra
+## Category-ruRU: Коллекции отряда
+## Category-zhCN: 战团藏品
+## Category-zhTW: 戰隊收藏
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+Data\Ratings.lua
+AlmostThere.lua
